@@ -1,18 +1,28 @@
+// utils
 @import "./utils/variables";
+@import "./utils/visually-hiden";
+@import "./utils/mixin";
+
+// base style 
+@import "./base/common";
 @import "./base/reset";
-@import "./utils/hidden";
-@import "./utils/mixins";
+@import "./base/container";
 
-@import "./components/container";
-@import "./components/btn";
-@import "./components/logo";
-@import "./components/modal";
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/features";
-@import "./layout/works";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/projects";
+// components
+@import "./components/button";
+@import "./components/socials";
+@import "./components/modal-form";
+@import "./components/mobile-menu";
+
+//  loyuots
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/section";
+@import "./layouts/qualities";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/filter";
+@import "./layouts/portfolio";

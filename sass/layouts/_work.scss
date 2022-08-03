@@ -1,0 +1,60 @@
+/*Секція Чим ми займаємося*/
+.works {
+    @media (max-width: 1199px)  { 
+        display: none;
+    }
+}
+.works-section {
+    padding-bottom: 94px;
+
+    @media (max-width: 1199px) {
+            display: none;
+        }
+    
+}
+
+.work__list {
+    display: flex;
+}
+
+.work__item {
+    margin-right: 30px;
+
+    &:last-child {
+            margin-right: 30px;
+        }
+}
+
+
+
+.work__item {
+    position: relative;
+}
+
+.work__description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    width: 100%;
+
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-accent-text-color);
+    background-color: var(--img-bg-color);
+}
+
+.work__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+    margin-bottom: 50px;
+}
